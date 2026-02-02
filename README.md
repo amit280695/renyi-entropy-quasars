@@ -144,6 +144,26 @@ This code evaluates the convergence of the normalized entropy dispersion across 
 
 ########################################################################################################################################################################################
 
+Step - 5
+
+Folder name: - entropy_enquiry_mask_1
+
+This folder contains three scripts: renyi_data.ipynb, renyi_random.ipynb, and plot.ipynb.
+These scripts should be executed sequentially in the given order. Running them in this sequence enables the evaluation of the Renyi-order–dependent diagnostic significance, thereby demonstrating multiscale anisotropy coherence at intermediate redshifts.
+
+#####################################################################################################################################################################################
+
+Step - 6
+
+Folder name: - redshift _err_10_p
+
+This folder contains two subdirectories.
+
+The first subdirectory, Data_prep_masking, includes the script masking_1_err.ipynb, which generates the required input data for this analysis.
+
+The second subdirectory, entropy_dispersion_mask_1, contains three scripts: entropy_disp_data.ipynb, entropy_dispersion_rand.ipynb, and plot.ipynb. These scripts should be executed sequentially in the specified order. Running them in this sequence enables the evaluation of the normalized entropy dispersion and the corresponding significance ratio after perturbing quasar redshifts within realistic Gaia–unWISE uncertainties, thereby demonstrating the robustness of the results against redshift errors.
+
+######################################################################################################3#########################################################################
 Required Python Packages - 
 These codes require the following Python packages, all of which are available in the Anaconda distribution: numpy, pandas, matplotlib, healpy, astropy, scipy
 

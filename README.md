@@ -177,6 +177,19 @@ The second subdirectory, entropy_dispersion_mask_1, contains three scripts: entr
 
 ############################################################################################################################################################################################
 
+Step - 8
+
+Folder name: - LQG_exclution_sample_2_nside64
+
+This folder contains three subdirectories.
+The first subdirectory, Data_prep_masking, contains three scripts: data_ex_LQG.ipynb, masking_3.ipynb, and masking_4.ipynb. These scripts should be executed sequentially in the specified order, which generates the required input data for this analysis.
+
+The second subdirectory, entropy_dispersion_mask_3, contains three scripts: entropy_disp_data.ipynb, entropy_dispersion_rand.ipynb, and plot.ipynb. These scripts should be executed sequentially in the specified order. Running them in this sequence enables to compute the normalized entropy dispersion and significance ratio for Sample 2 using Mask 1, after excluding the redshift interval associated with the Clowes-Campusano Large Quasar Group (LQG), for Nside=64.
+
+The second subdirectory, entropy_dispersion_mask_4, contains three scripts: entropy_disp_data.ipynb, entropy_dispersion_rand.ipynb, and plot.ipynb. These scripts should be executed sequentially in the specified order. Running them in this sequence enables to compute the normalized entropy dispersion and significance ratio for Sample 2 using Mask 2, after excluding the redshift interval associated with the Clowes-Campusano Large Quasar Group (LQG), for Nside=64.
+
+###############################################################################################################################################################################################
+
 Required Python Packages - 
 These codes require the following Python packages, all of which are available in the Anaconda distribution: numpy, pandas, matplotlib, healpy, astropy, scipy
 
